@@ -1,0 +1,47 @@
+body {
+  /*padding: 50px;*/
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.overlay{
+  position: absolute;
+  width: 100vw;
+  background-color: black;
+}
+@media (max-width: 767px){
+  .coming-soon-wrapper{
+    background-image: url("../images/jonathan-coming-soon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+}
+
+.coming-soon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("../images/jonathan-coming-soon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .9;
+  height: 100vh;
+}
+
+
+
+
+.coming-soon-wrapper h1 {
+  color: #cccbc5;
+  font-size: 10vw;
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: black;
+  opacity: 0.79;
+  padding: 0 15px;
+}
